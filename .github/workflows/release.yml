@@ -21,8 +21,10 @@ jobs:
         with:
           node-version: 'lts/*'
           cache: 'pnpm'
-      - name: Install dependencies
+      - name: Install
         run: pnpm install
+      - name: Build
+        run: pnpm build
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}

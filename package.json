@@ -1,7 +1,14 @@
 {
   "name": "@idmyn/gatsby-remark-backlinks",
   "description": "A gatsby plugin to surface backlinks for wikilinks",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "keywords": [
+    "gatsby",
+    "remark",
+    "remark-plugin",
+    "markdown",
+    "wiki"
+  ],
   "release": {
     "branches": [
       "main"
@@ -10,27 +17,17 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [
-    "gatsby",
-    "remark",
-    "remark-plugin",
-    "markdown",
-    "wiki"
+  "files": [
+    "dist",
+    "gatsby-*"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/idmyn/gatsby-remark-backlinks.git"
-  },
+  "repository": "https://github.com/idmyn/gatsby-remark-backlinks",
   "license": "MIT",
   "author": {
     "name": "David Mynors",
     "email": "hello@davidmyno.rs",
     "url": "https://davidmyno.rs"
   },
-  "files": [
-    "dist",
-    "gatsby-*"
-  ],
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc",

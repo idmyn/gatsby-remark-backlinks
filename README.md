@@ -7,7 +7,7 @@
 ## Usage
 
 You'll want to load this plugin after a remark wikilinks plugin like
-`@idmyn/gatsby-remark-wiki-link`
+[@idmyn/gatsby-remark-wiki-link](https://github.com/idmyn/gatsby-remark-wiki-link)
 
 ``` javascript
 // gatsby-config.js
